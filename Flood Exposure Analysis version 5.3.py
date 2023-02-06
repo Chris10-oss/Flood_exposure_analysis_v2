@@ -153,7 +153,7 @@ def process_data(ev):
                         + 'Number of depth files: ' + str(len(file_count)) + '\n'
                         + 'Number of Buildings: ' + str(builds_n) + '\n'
                         + 'Grid Resolution: ' + str(dx) + 'm' + '\n'
-                        + 'Buffer Distance: ' +str(buffer_value) + '% or' + str(buffer_distance) + 'm' + '\n\n'
+                        + 'Buffer Distance: ' + str(buffer_value) + '% or ' + str(buffer_distance) + 'm' + '\n\n'
                         + 'Low: ' + str(class_low) + '\n'
                         + 'Medium: ' +str(class_medium) + '\n'
                         + 'High: ' +str(class_high) + '\n\n')
