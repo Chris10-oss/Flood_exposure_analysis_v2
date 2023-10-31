@@ -155,8 +155,8 @@ def process_data(ev):
                         + 'Grid Resolution: ' + str(dx) + 'm' + '\n'
                         + 'Buffer Distance: ' + str(buffer_value) + '% or ' + str(buffer_distance) + 'm' + '\n\n'
                         + 'Low: ' + str(class_low) + '\n'
-                        + 'Medium: ' +str(class_medium) + '\n'
-                        + 'High: ' +str(class_high) + '\n\n')
+                        + 'Medium: ' + str(class_medium) + '\n'
+                        + 'High: ' + str(class_high) + '\n\n')
             sum_results.close()
             
     del(x, y)
