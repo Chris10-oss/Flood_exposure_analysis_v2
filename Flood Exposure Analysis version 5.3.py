@@ -161,6 +161,6 @@ def process_data(ev):
             
     del(x, y)
     del(buffer_list, cell_index, df_b)
-    print('The Exposure Analysis is Finished. Time required: ' + str(datetime.datetime.now() - T_start)[:-4])
+    print('The Flood Exposure Analysis is Finished. Developed by Robert Berstch and Chris Iliadis! Time required: ' + str(datetime.datetime.now() - T_start)[:-4])
     
 process_data('test')
